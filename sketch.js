@@ -49,6 +49,15 @@ for(let i=0;i<basket.length;i++){
 }
 
 
+let citrus
+
+if(basket.length%2==0){
+	citrus = basket.slice((basket.length/2),(basket.length/2)+2)
+} else {
+	citrus= basket.slice((basket.length/2),(basket.length/2)+2)
+}
+console.log(basket)
+console.log(citrus)
 
 
 
