@@ -37,13 +37,27 @@ for(let i=0;i<basket.length;i++){
 }
 
 for(let i=0;i<basket.length;i++){
-		console.log('Fruit ${i} ${basket[i]}');
+		console.log("Fruit " + (i+1) +": " + basket[i]);
+}
+
+for(let i=0;i<basket.length;i++){
+	if(basket[i]=='Orange') {
+		console.log("Orange found at index: " + i);
+	} else if (i==(basket.length-1)){
+		console.log("Orange not found");
+	}
 }
 
 
 
 
-	//I'm too rusty to get this to work
+
+
+
+
+
+
+	//Prompt testing (Does not work)
 
 	// let Fruits = []; //This will be a dummy array
 	// let newFruit;
